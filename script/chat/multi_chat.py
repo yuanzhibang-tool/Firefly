@@ -3,8 +3,8 @@ import torch
 
 
 def main():
-    model_name = 'YeungNLP/firefly-baichuan-13b'
-    # model_name = 'YeungNLP/firefly-baichuan-7b'
+    # model_name = 'YeungNLP/firefly-baichuan-13b'
+    model_name = 'YeungNLP/firefly-baichuan-7b'
     # model_name = 'YeungNLP/firefly-ziya-13b'
     # model_name = 'YeungNLP/firefly-bloom-7b1'
 
