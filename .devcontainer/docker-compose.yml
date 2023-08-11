@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+  firefly:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/home/developer/firefly
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]

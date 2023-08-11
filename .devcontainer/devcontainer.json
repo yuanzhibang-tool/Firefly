@@ -1,0 +1,23 @@
+{
+    "name": "firefly",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "firefly",
+    "runServices": [
+      "firefly"
+    ],
+    "workspaceFolder": "/home/developer/firefly",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-toolsai.jupyter",
+          "ms-toolsai.jupyter-keymap",
+          "ms-toolsai.vscode-jupyter-cell-tags",
+          "github.copilot",
+          "github.copilot-labs",
+          "github.copilot-chat",
+          "ms-python.python",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    }
+  }
